@@ -7,4 +7,11 @@
 
 go-tmpl is a convenient template for a go project.
 
-Run `bootstrap.sh` to bootstrap.
+The template includes:
+
+- a valid and empty [go.mod](go.mod)
+- a basic [Makefile](Makefile) with helpful commands
+- [test CI](.github/workflows/test.yml)
+- [golangci-lint CI](.github/workflows/lint.yml) with `goimports` formatting
+
+Run `bootstrap.sh` once cloned to bootstrap and swap out names where necessary.
